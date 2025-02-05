@@ -2,10 +2,11 @@ package Videojuego;
 
 public interface Enemigo {
 
-    public static int numEnemigos = 3;
+    void atacar();
 
-    public void atacar();
-    public void patrullar();
+    void patrullar();
+
+    void cambiarEstado();
 
 
 }
