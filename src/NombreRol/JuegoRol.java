@@ -87,10 +87,14 @@ public class JuegoRol{
     }
 
     public void guardarPersonaje(Personaje personaje, int pos) {
-        if (personajes[pos] == null) {
-            personajes[pos] = personaje;
+        if (pos >= 0 && pos < personajes.length) {
+            if (personajes[pos] == null) {
+                personajes[pos] = personaje;
+            } else {
+                System.out.println("Ya existe un personaje en esta posicion");
+            }
         } else {
-            System.out.println("Ya existe un personaje en esta posicion");
+            System.out.println("Fuera del rango");
         }
     }
 
