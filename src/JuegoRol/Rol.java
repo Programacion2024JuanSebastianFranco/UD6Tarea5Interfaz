@@ -1,4 +1,4 @@
-package NombreRol;
+package JuegoRol;
 
 public interface Rol {
     void describir();

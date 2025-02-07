@@ -1,4 +1,4 @@
-package NombreRol;
+package JuegoRol;
 
 import java.util.Random;
 import java.util.Scanner;
