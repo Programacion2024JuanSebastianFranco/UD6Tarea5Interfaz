@@ -1,3 +1,5 @@
+package Prueba;
+
 public class Implemento implements Interfaz{
 
     @Override

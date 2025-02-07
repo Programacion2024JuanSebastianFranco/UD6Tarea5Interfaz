@@ -1,5 +1,5 @@
 package NombreRol;
 
 public interface Rol {
-    void derscribir();
+    void describir();
 }

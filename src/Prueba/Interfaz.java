@@ -1,3 +1,5 @@
+package Prueba;
+
 public interface Interfaz {
     public double methodB();
     public static final int aCondtant = 32;
